@@ -4,7 +4,7 @@ function List(props) {
 
   return (
     <>
-      <ul className=" mt-10 text-3xl w-4/12 m-auto leading-10">
+      <ul className="list mt-10 text-xl md:text-3xl w-3/4  m-auto leading-10">
         {data.map((ele) => {
           return <Item {...ele} key={ele.id} />;
         })}
