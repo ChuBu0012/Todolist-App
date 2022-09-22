@@ -29,13 +29,13 @@ function AddItem(props) {
   return (
     <div>
       <form className="flex flex-col items-center mt-6 justify-center" onSubmit={AddnewItem}>
-        <div className="my-3">
+        <div className="my-3 flex flex-col">
           <label className="text-2xl">
             ชื่อรายการ <span className="mr-3 ">:</span>
           </label>
           <input type="text" className=" border-2 rounded-md h-10 text-xl pl-2" onChange={inputtitle}/>
         </div>
-        <div className="my-3">
+        <div className="my-3 flex flex-col">
           <label className="text-2xl">
             จำนวนเงิน <span className="mr-3 ">:</span>
           </label>
